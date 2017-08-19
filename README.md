@@ -10,6 +10,18 @@ Bash script to generate and install Let's Encrypt certificate for your websites 
 ## How to use
 - Run `sple.sh` anywhere from your console as root
 - Follow the on-screen instructions
+- Example
+  ```
+  Please enter your app name:
+  mywebsite
+
+  Please enter the System User name for the app:
+  serverpilot
+
+  Please enter all the domain names and sub-domain names
+  you would like to use, separated by space
+  mywebsite.com www.mywebsite.com
+  ```
 
 ## Why `root`?
 This script updates/create script in the `/etc/nginx-sp` that requires root access
